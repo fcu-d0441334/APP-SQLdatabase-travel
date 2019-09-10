@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherActivity"
+    android:orientation="vertical"
+    android:background="@drawable/introchildbackground"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/planingTitle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="★其他功能"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="50dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_whereami"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:text="我在哪裡"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_reportproblem"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:text="問題回報"
+            android:textSize="45dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

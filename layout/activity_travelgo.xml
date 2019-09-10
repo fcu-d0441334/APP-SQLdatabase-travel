@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.kaiappgo.go.travelgo"
+    android:background="@drawable/desktopbackground">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台中GO!!"
+        android:textColor="#000000"
+        android:textSize="80dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_to_introduction"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" 旅遊介紹 "
+        android:textColor="@color/colorPrimary"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_to_planing"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" 旅遊規劃 "
+        android:textColor="#FF0000"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_to_card"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" 餘額查詢 "
+        android:textColor="#0000FF"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_to_other"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="其他功能 "
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

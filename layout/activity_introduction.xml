@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/introchildbackground">
+
+    <TextView
+        android:id="@+id/planingTitle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="★旅遊景點介紹"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider" />
+
+    <TableRow>
+
+        <ListView
+            android:id="@+id/ListView01"
+            android:layout_width="wrap_content" />
+    </TableRow>
+
+</TableLayout>
