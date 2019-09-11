@@ -1,4 +1,4 @@
-# travelapp
+# APP-SQLdatabase-travel
 
 開發軟體為androidstudio  
 主要是使用SQL資料庫&GOOGLE MAPS Android API技術  
